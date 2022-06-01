@@ -1,0 +1,17 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+<h1 style="text-align:center">Busqueda</h1>
+<form style="text-align:center" action="busqueda_comics" method="GET">
+ 
+    <p style="text-align:center"><b>Título:</b></p>
+    <input style="text-align:center" type="text" name="titulo" id = "titulo">
+   
+    <input style="text-align:center" type="submit" value="Buscar">
+
+<form>
+
+{% endblock %}

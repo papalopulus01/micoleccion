@@ -1,0 +1,20 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+ <form style="text-align:center" action="alta_novelas" method="POST">
+    {% csrf_token %}
+    <p style="text-align:center"><b>Título:</b></p>
+    <input style="text-align:center" type="text" name="titulo" required>
+    <p style="text-align:center"><b>Autor:</b></p>
+    <input style="text-align:center" type="text" name="autor">
+    <p style="text-align:center"><b>Editorial:</b></p>
+    <input style="text-align:center" type="text" name="editorial">
+
+    <input style="text-align:center" type="submit" value="Enviar"> 
+
+</form>
+
+{% endblock %}

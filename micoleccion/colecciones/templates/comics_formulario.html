@@ -1,0 +1,24 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+ <form style="text-align:center" action="alta_comics" method="POST">
+    {% csrf_token %}
+    <p style="text-align:center"><b>Título:</b></p>
+    <input style="text-align:center" type="text" name="titulo" required>
+    <p style="text-align:center"><b>Número:</b></p>
+    <input style="text-align:center" type="number" name="numero" required>
+    <p style="text-align:center"><b>Guionista:</b></p>
+    <input style="text-align:center" type="text" name="guionista">
+    <p style="text-align:center"><b>Dibujante:</b></p>
+    <input style="text-align:center" type="text" name="dibujante">
+    <p style="text-align:center"><b>Editorial:</b></p>
+    <input style="text-align:center" type="text" name="editorial">
+
+    <input style="text-align:center" type="submit" value="Enviar"> 
+
+</form>
+
+{% endblock %}
