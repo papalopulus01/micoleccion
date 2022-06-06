@@ -12,7 +12,7 @@ Utilización
 
 Novelas ( http://127.0.0.1:8000/colecciones/novelas )
 Podrá cargar novelas con un formulario ( http://127.0.0.1:8000/colecciones/alta_novelas )
-O buscar novelas ya cargadas por el título ( http://127.0.0.1:8000/colecciones/alta_novelas )
+o buscar novelas ya cargadas por el título ( http://127.0.0.1:8000/colecciones/alta_novelas )
 
 Comics ( http://127.0.0.1:8000/colecciones/comics )
 Podrá cargar comics con un formulario ( http://127.0.0.1:8000/colecciones/alta_comics )
