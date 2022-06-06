@@ -22,4 +22,5 @@ Mangas ( http://127.0.0.1:8000/colecciones/mangas )
 Podrá cargar comics con un formulario ( http://127.0.0.1:8000/colecciones/alta_mangas)
 o buscar comics ya cargados por el título ( http://127.0.0.1:8000/colecciones/buscar_mangas )
 
-Aclaración importante: Para agilizar la carga masiva, las páginas de alta se refrescan automáticamente tras ingresar el formulario de la novela, comic o manga, agregando el item a la base de datos sin cambiar de página. 
+Aclaración importante: Para facilitar la carga masiva en los inventarios, las páginas de alta ofrecen automáticamente un nuevo inventario en blanco tras cargar un item. Para buscar en la base de datos, se debe volver al directorio general de Novelas, Comics o Mangas y de ahí a la página de busqueda. 
+ 
